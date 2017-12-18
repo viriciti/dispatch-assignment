@@ -1,12 +1,12 @@
 # Dispatch Assignment
 
 ### introduction
-ViriCiti is getting increasingly more involved with smart charging. Smart charging is about acheiving maximal efficiency with  a fleet of vehicles that have limited available charging capacity. For programmers this is highly interesting. In light of these developments we have created a small assignment which will give you some insight into what ViriCiti is actually producing and, of course, help us assessing your programming skills. 
+ViriCiti is getting increasingly more involved with smart charging. Smart charging is about acheiving maximal efficiency for  a fleet of vehicles that have limited available charging capacity. For programmers this is highly interesting. In light of these developments we have created a small assignment which will give you some insight into what ViriCiti is actually producing and, of course, help us assessing your programming skills. 
 
 ### the assigment
-Imagine you are developing a smart charging solution for a company's fleet of electric public transport buses. The operator of the fleet lets us know that the route they are going to drive takes 30 minutes (*routeTime*). He or she also tells us that the total amount of time buses are driving that route per day is 10 hours (*totalTime*). Now, the operator wants to acheive a minimum of 4 buses per hour, that is, have a bus depart each 15 minutes.
+Imagine you are developing a smart charging solution for a company's fleet of electric public transport buses. The operator of the fleet lets us know that the route they are going to drive takes 30 minutes (*routeTime*). He or she also tells us that the total amount of time buses are driving that route per day is 10 hours (*totalTime*). Now, the operator wants to achieve a minimum of 4 buses per hour, that is, have a bus depart each 15 minutes.
 
-Now, if only buses had a large battery... then this would be an easy problem to solve. Unfortunately we still need to take into account the energy consumed while driving. This means that when a bus' state of charge (SOC) is below a certain value, there isn't enough capacity to drive the full route. Because of this, an operator needs to employ extra buses while others are charging.
+Now, if only buses had a large battery... then this would be an easy problem to solve. Unfortunately we still need to take into account the energy consumed while driving. This means that when a bus' state of charge (SOC) is below a certain value, there isn't enough capacity to drive the full route. Because of this, an operator needs to deploy extra buses while others are charging.
 
 For simplicity's sake we assume all these all buses are identical buses from the same manufacturer. It is known that buses of these manufacturer have a battery that charges with a rate 5.0% SOC per 5 minutes. It is also known that these buses consume approximately 5.8% SOC per 5 minutes with a random deviation between 0 and 1.7. In the example we generate deviation like so: ```5.8 + Math.random() * 1.7```. 
 
@@ -18,25 +18,20 @@ Hint: Possible variables you can use in the process are *routeTime*, *totalTime*
 
 ### how to
 First, fork the repository at:
-
 ```https://github.com/viriciti/dispatch-assignment```
 
 Then open up your terminal and clone the forked repository
 
 Replace [YOUR_USERNAME] with your name
-
 ```git clone https://github.com/[YOUR_USERNAME]/assignment.git```
 
 Enter the directory
-
 ```cd dispatch-assignment```
 
 Run the project
-
 ```npm start```
 
 You should see the following output
-
 ```Bus 1211 started the route```
 
 
