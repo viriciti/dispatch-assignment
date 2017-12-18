@@ -1,7 +1,7 @@
-var Dispatch = require("./dispatch")
-var Bus      = require("./bus")
+const Dispatch = require("./dispatch")
+const Bus      = require("./bus")
 
-var dispatch = new Dispatch()
+const dispatch = new Dispatch()
 
 dispatch.addVehicle(new Bus("1211", 100))
 
