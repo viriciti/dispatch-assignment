@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon -w src/ -w config/ -w ../vio/build src/app.coffee"
+    "start": "node src/app.js"
   },
   "author": "Erwin",
-  "license": "ISC",
-  "dependencies": {
-    "nodemon": "^1.13.3"
-  }
+  "license": "ISC"
 }
