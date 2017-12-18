@@ -38,7 +38,7 @@ You should see the following output
 ### important points
 - Although it is nice if you accomplish to acheive to produce a definite end result, we are more interested in your general approach. This also means that you're javascript does not have to be perfect. 
 - Keep things as simple as you possibly can! Only then -- when there is time left -- you can expand and add details.
-- We highly value clear code; the easier for us to understand what is going on the better.
+- We highly value clear code; the easier for us to understand what is going on the better. (e.g. create functions)
 - Make sure that you can clarify important decisions and come up with some pros and cons.  
 - The initial setup you find here is written in coffeescript. Prefer to write javascript? That's completely fine also.
 - If there are any questions, remarks or mistakes in this repository / readme. Please don't hesitate to contact us or just create an issue here.
