@@ -1,0 +1,13 @@
+{
+  "name": "dispatch-assigment",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -w src/ -w config/ -w ../vio/build src/app.coffee"
+  },
+  "author": "Erwin",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.13.3"
+  }
+}
