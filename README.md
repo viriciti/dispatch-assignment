@@ -5,6 +5,10 @@ ViriCiti is getting increasingly more involved with smart charging of public tra
 
 ### the assigment
 
+Let's say you are developing a smart charging solution for a company that drives identical buses from the same manufacturer. Of the busses of this manufacturer it i known that they can charge with 1.0% state of charge (SOC) per minute. It is also known that they consume approximately 5.8 SOC per 5 minutes. (```Math.random() * 1.7```).
+*progress*
+
+10 hours
 
 ### important points
 - Although it is nice if you accomplish to acheive to produce a definite end result, we are more interested in your general approach. This also means that you're javascript does not have to be perfect. 
@@ -14,6 +18,7 @@ ViriCiti is getting increasingly more involved with smart charging of public tra
 - The initial setup you find here is written in coffeescript. Prefer to write javascript? That's completely fine also.
 
 ### possible extras
+- Make other parameters variable also. Tip: start with *progress*.
 - Only dispatch the bus with the highest SOC, instead just any bus.
-- Instead of adding busses manualy in your code, automise the trail and error process of finding the minimal amount of busses needed to perform the round trips.
+- Instead of adding buses manualy in your code, automise the trail and error process of finding the minimal amount of buses needed to perform the round trips.
 - Use the [d3](https://d3js.org/) or [c3](http://c3js.org/) libraries to visualise input and output data. 
