@@ -1,10 +1,10 @@
 {
-  "name": "dispatch-assigment",
-  "version": "1.0.0",
-  "main": "app.js",
-  "scripts": {
-    "start": "node src/app.js"
-  },
-  "author": "Erwin",
-  "license": "ISC"
+	"name": "dispatch-assigment",
+	"version": "1.0.1",
+	"main": "app.js",
+	"scripts": {
+		"start": "node src/app.js"
+	},
+	"author": "Erwin",
+	"license": "ISC"
 }
