@@ -8,15 +8,14 @@ class Dispatch {
 		// figure out when and when not to dispatch
 
 		// For now, we start only once.
-		if(step === 0) this.dispatch()
+		if (step === 0) this.dispatch()
 
 		if (step === 595) this.vehicles.map((vehicle) => vehicle.stop())
 	}
 
 	start() {
 		// simulate evolution of time:
-		let step = 0
-		for(step; step <= 10 * 60; step += 5) {
+		for (let step = 0; step <= 10 * 60; step += 5) {
 
 			console.log(`Time is flowing: ${step} minutes passed.`)
 
