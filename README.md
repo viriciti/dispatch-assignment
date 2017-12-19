@@ -1,6 +1,6 @@
 ![Dispatch Assignment](images/dispatch_assignment.png)
 
-# Dispatch Assignment
+## Dispatch Assignment
 ### Introduction
 
 ViriCiti is getting increasingly more involved with smart charging. Smart charging is about acheiving maximal efficiency for a fleet of vehicles that have limited available charging capacity. For programmers this is highly interesting. In light of these developments we have created a small assignment which will give you some insight into what ViriCiti is actually producing and, of course, help us assessing your programming skills.
