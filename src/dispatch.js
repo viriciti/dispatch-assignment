@@ -1,4 +1,4 @@
-const Dispatch = class Dispatch {
+class Dispatch {
 
 	constructor() {
 		this.vehicles = []

@@ -1,4 +1,4 @@
-const Bus = class Bus {
+class Bus {
 
 	constructor(name, soc) {
 		this.name = name
@@ -7,7 +7,7 @@ const Bus = class Bus {
 	}
 
 	energyConsumed() {
-		return 5.8 + Math.random() * 1.7
+		return 5.8 + Math.random() * 5.8
 	}
 
 	energyCharged() {
