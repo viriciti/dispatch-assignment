@@ -16,7 +16,7 @@ const Dispatch = class Dispatch {
 	start() {
 		// simulate evolution of time:
 		let step = 0
-		for(step; step < 10 * 60; step += 5) {
+		for(step; step <= 10 * 60; step += 5) {
 
 			console.log(`Time is flowing: ${step} minutes passed.`)
 
