@@ -11,7 +11,7 @@ Imagine you are developing a smart charging solution for a company's fleet of el
 
 Now, if only buses had a large battery... then this would be an easy problem to solve. Unfortunately we still need to take into account the energy consumed while driving. This means that when a bus' state of charge (SOC) is below a certain value, there isn't enough capacity to drive the full route. Because of this, an operator needs to deploy extra buses while others are charging.
 
-For simplicity's sake we assume that all these buses are identical. It is known that buses of this manufacturer have a battery that charges with a rate of 5.0% SOC per 5 minutes. It is also known that these buses consume approximately 5.8% SOC per 5 minutes with a random positive deviation between 0 and 5.8. In the example we generate deviation like so: `5.8 + Math.random() * 5.8`.
+For simplicity's sake we assume that all these buses are identical. It is known that buses of this manufacturer have a battery that charges with a rate of 15.0% SOC per 5 minutes. It is also known that these buses consume approximately 5.8% SOC per 5 minutes with a random positive deviation between 0 and 5.8. In the example we generate deviation like so: `5.8 + Math.random() * 5.8`.
 
 How many buses does the operator need at minimum?
 

@@ -11,7 +11,7 @@ class Bus {
 	}
 
 	energyCharged() {
-		return 5.0
+		return 15.0
 	}
 
 	// create methods that simulate a driving and thus energy consuming vehicle
