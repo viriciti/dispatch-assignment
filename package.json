@@ -1,6 +1,6 @@
 {
 	"name": "dispatch-assigment",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"main": "app.js",
 	"scripts": {
 		"start": "node src/app.js"
