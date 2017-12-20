@@ -16,8 +16,11 @@ For simplicity's sake we assume that all these buses are identical. It is known 
 How many buses does the operator need at minimum?
 
 Hint: Assume that a bus is charging if it is not driving.
+
 Hint: Possible variables you can use in the process are _routeTime_, _totalTime_, _progress_ (amount of minutes a bus has been driving), _onRoute_ (whether a bus is driving or not) and _soc_ (current state of charge of a bus).
+
 Hint: Take into account extremes. What, considering the above scenario, is the worst possible case and how does it effect the conclusion?
+
 Hint: Mind the comments you find in this repository.
 
 ### How to
