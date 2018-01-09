@@ -7,7 +7,7 @@ ViriCiti is getting increasingly more involved with smart charging. Smart chargi
 
 ### The assignment
 
-Imagine you are developing a smart charging solution for a company's fleet of electric public transport buses. The operator of the fleet lets us know that the route they are going to drive takes 30 minutes (_routeTime_). He or she also tells us that the total amount of time buses are driving that route per day is 10 hours (_totalTime_). Now, the operator wants to achieve a minimum of 4 buses per hour, that is, have a bus depart each 15 minutes.
+Imagine you are developing a smart charging solution for a company's fleet of electric public transport buses. The operator of the fleet lets us know that the route they are going to drive takes 30 minutes (_routeTime_). He or she also tells us that the total amount of time buses are driving that route per day is 10 hours (_totalTime_), so for example buses are scheduled from 10am untill 8pm. Now, the operator wants to achieve a minimum of 4 buses per hour, that is, have a bus depart each 15 minutes.
 
 Now, if only buses had a large battery... then this would be an easy problem to solve. Unfortunately we still need to take into account the energy consumed while driving. This means that when a bus' state of charge (SOC) is below a certain value, there isn't enough capacity to drive the full route. Because of this, an operator needs to deploy extra buses while others are charging.
 
