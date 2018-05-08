@@ -13,7 +13,13 @@ Now, if only buses had a large battery... then this would be an easy problem to 
 
 For simplicity's sake we assume that all these buses are identical. It is known that buses of this manufacturer have a battery that charges with a rate of 15.0% SOC per 5 minutes. It is also known that these buses consume approximately 5.8% SOC per 5 minutes with a random positive deviation between 0 and 5.8. In the example we generate deviation like so: `5.8 + Math.random() * 5.8`.
 
+### Question
+
 How many buses does the operator need at minimum?
+
+__Requirement: Create a running process that simulates the driving buses and finally spits out the answer.__
+
+### Hints
 
 Hint: Assume that a bus is charging if it is not driving.
 
